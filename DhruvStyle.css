@@ -1,0 +1,294 @@
+.top-bar {
+    background: rgb(51, 204, 204) !important;
+}
+#prt {
+    height: 2.81rem;
+    width: auto;
+    padding: 0.7em;
+}
+.top-bar-section li:not(.has-form) a:not(.button) {
+    background: transparent !important;
+}
+.top-bar-section ul li {
+    background: transparent !important;
+}
+.green {
+    background: mediumseagreen !important;
+}
+.green td {
+    color: white;
+}
+#integrator {
+    width: 100%;
+    
+}
+.greenc{
+    color: rgb(51, 204, 204) !important;
+}
+#ajaxResponse{
+    color: red !important;
+    padding: 15px;
+    font-size: 10pt;
+}
+.yellow {
+    background: yellow;
+}
+#table {
+    position: absolute;
+    top: 50px;
+    left: 8%;
+}
+#sechead
+{
+    background: none;
+    width: 50%;
+    display: inline;
+}
+#EmergencyCount 
+{
+    color:  grey;
+    font-family: 'Segoe UI Light','Segoe WP','Calibri Light',Calibri;
+    padding-left: 5px;
+    width: 150px;
+}
+.btn-teacherControl
+{
+    position: relative;
+    float: right;
+    display: inline;
+    right: 5px;
+}
+
+#sechead {
+    color:  grey;
+    font-family: 'Segoe UI Light','Segoe WP','Calibri Light',Calibri;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+#mobile-backgroundOverlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: rgba(255,255,255,0.80);
+    width: 100%;
+    height: 100%;
+}
+#faraway {
+    position: relative;
+    left: 0;
+    background: white;
+    min-height: 200px;
+}
+/*body {
+    overflow: scroll !important;
+}*/
+.err {
+    position: relative;
+    top: 10px;
+    font-family: 'Segoe WP Light','Calibri Light',Calibri;
+    width: 100%;
+    text-align: center;
+    color: #808080;
+}
+#sat {
+    text-align: center;
+    font-family: Calibri;
+    color: #808080 !important;
+    padding: 5px 2.5px 5px 2.5px;
+    background: white;
+}
+#sat h3 {
+    text-align: center;
+    font-family: Calibri;
+    color: #808080 !important;
+}
+#lighthouse {
+    background: rgba(255,255,255,0.80);
+    display: block;
+    height:  90%;
+    width: 90%;
+    position: relative;
+    top: 25px;
+    box-shadow: 0px 2px 35px -7px rgba(0, 0, 0, 0.9);
+}
+#heading {
+        font-family: 'Segoe UI Light', 'Calibri Light',Calibri;
+        position: relative;
+        top: 5px;
+        left:  5px;
+        color:  white;
+}
+#subheading {
+        font-family: 'Segoe UI Light', 'Calibri Light', Calibri;
+        position: relative;
+        top: -15px;
+        left:  5px;
+        color:  white;
+}
+#internal {
+        position: absolute;
+        top: 200px;
+        left: 50px;
+        color:  grey;
+}
+.inputf {
+    width:  100%;
+}
+#greenband {
+    background: rgb(51, 204, 204);
+}
+#kickstart {
+    position: relative;
+    top: 3%;
+    display: none;
+}
+#passittomeman {
+    position: relative;
+    top: 0px;
+}
+button {
+    background: rgb(51, 204, 204) !important;
+    font-family: 'Segoe UI Light', 'Calibri Light';
+    position: relative;
+    right: 7.5%;
+    top: 10px;
+    font-size: large !important;
+    padding: 10px 30px 10px 30px !important;
+}
+input {
+    opacity: 0.5;
+    border: 1pt solid rgb(51, 204, 204) !important;
+    width: 85% !important;
+    position: relative; 
+    left: 7.5%;  
+    top: 2.5px;
+}
+.content-wrapper {
+    position: relative;
+    left: 0%;
+    height: 75px;
+    padding-top: 3.9999%;
+    border-left: 5px solid transparent;
+}
+body {
+  background: url(monday.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important;
+}
+body {
+    overflow-x: hidden;
+}
+#credits {
+    position: absolute;
+    bottom: 2%;
+    right:  2%;
+    width: 200px;
+    color:  grey;
+}
+#credits img{
+    width: auto;
+    height: 40px;
+}
+body {
+
+}
+#creditsmobi img{
+    width: auto;
+    height: 40px;
+}
+#creditsmobi{
+    position: absolute;
+    bottom: 2px;
+}
+@media only screen and (max-width: 40em) {
+    #internal {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        color:  grey;
+        position: relative;
+        top:  200px;
+        left: 0px;
+}
+.btn-teacherControl
+{
+    position: relative;
+    float: right;
+    display: block;
+    right: 0px;
+    top: 5px;
+    bottom: 5px;
+    width: 100%;
+}
+#table {
+    left: 0px;
+}
+#lighthouse {
+    background: none;
+    display: block;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0px;
+    box-shadow: none;
+}
+    button {
+    width: 85%;
+    padding: 5px 30px 5px 30px !important;
+    }
+#greenband {
+    background: rgb(51, 204, 204);
+    position: relative;
+    top: -5px;
+}
+body {
+  background: url(BackMobi.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+}
+}
+#info h1{
+    color: #fff;
+    font-family: "Segoe UI Light","Calibri Light";
+    background: rgba(255,255,255,0.25);
+    padding: 15px 5px 15px 5px;
+    position: relative;
+    top: 150px;
+    
+}
+#info h3{
+    color: #fff;
+    font-family: "Segoe UI Light","Calibri Light";
+    background: rgba(255,255,255,0.25);
+    padding: 15px 5px 15px 5px;
+    position: relative;
+    top: 150px;
+    
+}
+#info {
+    position: relative;
+    left: 39px;
+    height:  100%;
+}
+#timeUp{
+    width: 90%;
+    margin-top: 15px;
+    background: rgba(51, 203, 203, 1) !important;
+}
+#sat{
+	border: none !important;
+}
+#LOCATE{
+	color: grey;
+	padding-top: 50px;
+	text-align: center;
+}
+#LOCATE h3{
+	color: grey;
+}

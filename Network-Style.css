@@ -1,0 +1,132 @@
+﻿header {
+    font-family: Gotham;
+    width: 95%;
+    background: rgba(225, 222, 219, 0.7);
+    position: absolute;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    color: rgb(128, 128, 128);
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+@media only screen and (max-width: 40.063em) {
+    header{
+        background: rgba(232, 229, 230, 1);
+        padding-left: 0%;
+        padding-right: 0%;
+        width: 100%;
+    }
+    header .inner-head {
+        background: none !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important; 
+    }
+    .sec-title{
+        width: 100%;
+        position: absolute !important;
+    }
+    #jbutton{
+        display: block;
+        width: 97%;
+        margin-top: 10px;
+    }
+}
+#logo-text{
+    padding-left: 1px;
+    height: 32px;
+    top: -6px;
+}
+header .inner-head {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    background: rgba(251, 251, 248, 0.65);
+    padding-left: 1%;
+    padding-right: 1%; 
+}
+header .set-inline {
+    display: inline-block;
+    position: relative;
+    top: 2px;
+    height: 48px;
+    width: auto;
+}
+.to-right{
+    float: right;
+}
+.rotate {
+     -webkit-animation: spin 1s infinite; /* Chrome, Safari, Opera */
+     animation: spin 0.75s infinite;
+     width: 10%;
+     height: auto;
+}
+@keyframes spin {
+    from {
+        transform: rotate(0deg)
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+@font-face {
+     font-family: Gotham;
+     src: url(gotham-rounded-medium.woff);
+}
+@media only screen and (max-width: 64em) {
+    .container {
+        background: rgba(255,255,255, 0.9);
+        width: 100% !important;
+        border-radius: 0px !important;
+        padding-left: 15px;
+        padding-right: 15px;
+    }   
+    #scriptUI{
+        overflow: hidden;
+    }
+    #logo-text{
+        display: none;
+    }  
+}
+body {
+  /*background: url(thursday.jpg) no-repeat center center fixed; Not Needed*/
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important;
+}
+.container {
+    background: rgba(255,255,255, 0.9);
+    width: 80%;
+    border-radius: 3px;
+}
+.large {
+    font-size: 72pt;
+}
+#jbutton {
+    color: #fff;
+    background-color: #5fcf80;
+    border: 2px solid #5fcf80;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 15px 15px;
+    border-radius: 3px;
+}
+#scriptUI {
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */
+    display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+    justify-content: center;
+    -ms-justify-content: center;
+    -webkit-justify-content: center;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    -ms-align-items: center;
+    -webkit-align-items: center;
+}
+.container section {
+    font-family: Gotham;
+    color: rgb(128, 128, 128);
+}

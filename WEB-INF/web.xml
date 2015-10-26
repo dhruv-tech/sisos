@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+  @author:
+-->
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+                      http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+  version="3.0"
+  metadata-complete="true">
+
+    <description>British School Sign in System</description>
+    <display-name>British School Sign in System</display-name>
+	
+<servlet>
+        <servlet-name>authCheckRegT</servlet-name>
+        <servlet-class>com.arjun.sisos.authCheckRegT</servlet-class>
+    </servlet>
+<servlet>
+          <servlet-name>serverCheck</servlet-name>
+        <servlet-class>com.arjun.sisos.serverCheck</servlet-class>
+    </servlet>
+<servlet>
+        <servlet-name>out</servlet-name>
+        <servlet-class>com.arjun.sisos.out</servlet-class>
+    </servlet>
+<servlet>
+        <servlet-name>sendTime</servlet-name>
+        <servlet-class>com.arjun.sisos.sendTime</servlet-class>
+    </servlet>
+<servlet>
+        <servlet-name>latLon</servlet-name>
+        <servlet-class>com.arjun.sisos.latLon</servlet-class>
+    </servlet>
+
+ <servlet>
+        <servlet-name>checkDay</servlet-name>
+        <servlet-class>com.arjun.sisos.checkDay</servlet-class>
+    </servlet>
+
+ <servlet>
+        <servlet-name>testDB</servlet-name>
+        <servlet-class>com.arjun.sisos.testDB</servlet-class>
+    </servlet>
+ <servlet>
+        <servlet-name>sendNameYear</servlet-name>
+        <servlet-class>com.arjun.sisos.sendNameYear</servlet-class>
+    </servlet>
+ 
+<servlet>
+        <servlet-name>authCheckReg</servlet-name>
+        <servlet-class>com.arjun.sisos.authCheckReg</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>latLon</servlet-name>
+        <url-pattern>/latLon/*</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>out</servlet-name>
+        <url-pattern>/out/*</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>checkDay</servlet-name>
+        <url-pattern>/checkDay/*</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>testDB</servlet-name>
+        <url-pattern>/testDB/*</url-pattern>
+    </servlet-mapping>
+  <servlet-mapping>
+        <servlet-name>sendTime</servlet-name>
+        <url-pattern>/sendTime/*</url-pattern>
+    </servlet-mapping>
+  
+  <servlet-mapping>
+        <servlet-name>sendNameYear</servlet-name>
+        <url-pattern>/sendNameYear/*</url-pattern>
+    </servlet-mapping>
+  <servlet-mapping>
+        <servlet-name>serverCheck</servlet-name>
+        <url-pattern>/serverCheck/*</url-pattern>
+    </servlet-mapping>
+<servlet-mapping>
+        <servlet-name>authCheckReg</servlet-name>
+        <url-pattern>/authCheckReg/*</url-pattern>
+    </servlet-mapping>
+<servlet-mapping>
+        <servlet-name>authCheckRegT</servlet-name>
+        <url-pattern>/authCheckRegT/*</url-pattern>
+    </servlet-mapping>
+
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+  <security-constraint>
+    <web-resource-collection>
+      <web-resource-name> 
+        Protected Site 
+      </web-resource-name>
+      <!-- This would protect the entire site -->
+      <url-pattern> /inboundNetwork-outlet.htm </url-pattern>
+      <!-- If you list http methods, 
+            only those methods are protected -->
+      <http-method> DELETE </http-method>
+      <http-method> GET </http-method>
+      <http-method> POST </http-method>
+      <http-method> PUT </http-method>
+    </web-resource-collection>
+    <auth-constraint>
+      <!-- Roles that have access -->
+      <role-name>GateDude</role-name>
+    </auth-constraint>
+  </security-constraint>
+  
+  <!-- BASIC authentication -->
+  <login-config>
+    <auth-method> BASIC </auth-method>
+    <realm-name>ONLY ASSIGNED GATE(S) ARE ALLOWED - 2015.</realm-name>
+  </login-config>
+
+  <!-- Define security roles -->
+  <security-role>
+    <description>Test role</description>
+    <role-name>GateDude</role-name>
+  </security-role>
+
+</web-app>

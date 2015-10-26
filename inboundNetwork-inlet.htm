@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+        <meta name="robots" content="noindex">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Log In - SISOS (Dhruv Malik & Arjun Verma) via WiFi </title>
+        <link rel="stylesheet" type="text/css" href="normalize.css" />
+		<link rel="stylesheet" type="text/css" href="component.css" />
+        <link href="Network-Style.css" rel="stylesheet" />
+		<script src="js/modernizr.custom.js"></script>
+    </head>
+	<body>
+		<header>
+			<div class="inner-head sec-title">
+				<p>Project SISOS</p>
+			</div>
+			<div class="inner-head to-right">
+				<img class="set-inline" src="logo-head.png"/>
+				<img class="set-inline" id="logo-text" src="logo-text.png"/>
+			</div>
+		</header>
+        <div id="scriptUI">
+		<div class="container">
+			<section id="screen">
+				<form id="theForm" class="simform" autocomplete="on">
+					<div class="simform-inner">
+						<ol class="questions">
+							<li>
+								<span><label for="q1">Username</label></span>
+								<input id="username" name="username" type="text"/>
+							</li>
+							<li>
+								<span><label for="q2">Password</label></span>
+								<input id="password" name="password" type="password"/>
+							</li>
+						</ol><!-- /questions -->
+						<button class="submit" type="button">Send answers</button>
+						<div class="controls">
+							<button class="next"></button>
+							<div class="progress"></div>
+							<span class="number">
+								<span class="number-current"></span>
+								<span class="number-total"></span>
+							</span>
+							<span class="error-message"></span>
+						</div><!-- / controls -->
+					</div><!-- /simform-inner -->
+					<span class="final-message"></span>
+				</form><!-- /simform -->			
+			</section>
+		</div><!-- /container -->
+        </div>
+                <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.min.js"></script>
+                <script src="js/classie.js"></script>
+                <script src="js/stepsForm.js"></script>
+                <script src="js/Dhruv-FormActions.js"></script>
+                <script src="js/inbound.js"></script>
+</body>
+</html>
