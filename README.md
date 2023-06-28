@@ -133,3 +133,7 @@ Frontend: HTML5, CSS3, JS/JQuery, Zurb Foundation.
   <br/>
 
 </details>
+
+---
+
+***Made public and archieved in 2023.*
