@@ -80,7 +80,7 @@ Frontend: HTML5, CSS3, JS/JQuery, Zurb Foundation.
   <br/>
   <img src="https://github.com/dhruv-tech/sisos/assets/26849655/553d3520-33ad-458c-b220-fa66303ae2d5" alt="Login/logout Page, seeking password Screenshot" width=800>
   <p> (Above) Login/logout page asking for password on a Tuesday - Desktop </p>
-  <img src="https://github.com/dhruv-tech/sisos/assets/26849655/307b5a03-149e-4779-9c27-2f2a863871ae" alt="Login Page Screenshot on mobile" width=800>
+  <img src="https://github.com/dhruv-tech/sisos/assets/26849655/307b5a03-149e-4779-9c27-2f2a863871ae" alt="Login Page Screenshot on mobile" width=250>
   <p> (Above) Login page - Mobile </p>
 </details>
 
