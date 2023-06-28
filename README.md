@@ -12,7 +12,7 @@ I primarily worked on the frontend, while Arjun primarily worked on the backend.
 
 (*Screenshot of the application on a desktop computer on 1st October 2015; Click to enlarge*)
 
-The architecture and code quality of the application is what you may expect from a middle school developer 😅.
+The architecture and code quality of the application is probably what you would expect from a middle school developer 😅
 
 ## Introduction & Context
 
