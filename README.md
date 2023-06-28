@@ -37,3 +37,5 @@ The idea was simple - the school gave email ids/active dirctory accounts to ever
 to login from their phone, laptop or any other device at the school if they are staying back. They'll be able to log out from a laptop 
 left at the security desk on the school's main gate. If a school employee logs into the app, they'll see a list of all the 
 students in the premises and could mark attendence as needed.
+
+We built the application over the next few months and deployed it on the school's intranet.
