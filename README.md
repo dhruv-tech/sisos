@@ -69,7 +69,7 @@ Frontend: HTML5, CSS3, JS/JQuery, Zurb Foundation.
   <summary>Login/Logout Page</summary>
   <br/>
   
-  <p>Both the login and logout pages looked identical, however the logout page was protected by a master password and was only opended on a laptop on the security desk on the main gate.</p>
+  <p>Both the login and logout pages looked identical, however the logout page was protected by a master password and was only opended on a laptop on the security desk at the main gate.</p>
   
   <p>The background image of the page would differ by the day of the week. The screnshots below are taken on Wednesday and Tuesday respectively.</p>
   
