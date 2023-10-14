@@ -6,9 +6,9 @@ SISOS (Sign In Sign Out System) was a web app I created during middle school, in
 
 I primarily worked on the frontend, while Arjun primarily worked on the backend.
 
-<img alt="screenshot of the app in 2015 on Microsoft Edge on Windows" src="https://github.com/dhruv-tech/sisos/assets/26849655/8473e0a5-67da-4f1c-b8d1-34c537054af9" width=750>
+<img alt="screenshot of the app in 2015 on Microsoft Edge (Legacy) on Windows" src="https://github.com/dhruv-tech/sisos/assets/26849655/8473e0a5-67da-4f1c-b8d1-34c537054af9" width=750>
 
-(*Screenshot dated 1st October 2015; Click to enlarge*)
+(*Screenshot - SISOS open in Microsoft Edge (Legacy), dated 1st October 2015; Click to enlarge*)
 
 
 *The architecture and code quality of the application are a reflection of our middle school developer skills 😅*
