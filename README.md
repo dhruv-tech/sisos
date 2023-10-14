@@ -2,52 +2,41 @@
 
 (Archieved)
 
-SISOS (Sign In Sign Out System) was a web application project that I worked on during my middle school days (Grade 10).
-
-**It was conceptualised and built in collaboration with [Arjun Verma](https://www.linkedin.com/in/av777x/)**.
+SISOS (Sign In Sign Out System) was a web app I created during middle school, in collaboration with **[Arjun Verma](https://www.linkedin.com/in/av777x/)**.
 
 I primarily worked on the frontend, while Arjun primarily worked on the backend.
 
 <img alt="screenshot of the app in 2015 on Microsoft Edge on Windows" src="https://github.com/dhruv-tech/sisos/assets/26849655/8473e0a5-67da-4f1c-b8d1-34c537054af9" width=750>
 
-(*Screenshot of the application on a desktop computer on 1st October 2015; Click to enlarge*)
+(*Screenshot dated 1st October 2015; Click to enlarge*)
 
-The architecture and code quality of the application is probably what you would expect from a middle school developer 😅
+
+*The architecture and code quality of the application are a reflection of our middle school developer skills 😅*
 
 ## Introduction & Context
 
-### The Problem
+The application was built to address our school's problem with the lack of accurate attendance records for students staying after school - maintaining these records was important for various reasons, but most importantly for a situation where there were to be a fire or earthquake evacuation.
 
-After school would end at 2:20pm (3:20pm on some days), some students would often stay back on the school's premises for a while - often to
-study together with friends, play sports or to wait for a parent that worked at the school. 
+SISOS was developed as a responsive web app where students could sign in/out using school email accounts to indicate if they are present on the premises after school. 
 
-But, this posed a problem - there would be no record of who was inside the premises if there were to be a fire or earthquake emergency.
-The school had faced this issue first hand a few times during minor earthquakes earlier.
+Staff could login and check attendance of students in the premises at any given time.
 
-The school attempted to solve this by asking students to self-sign on a register at a far corner of the school, if they were staying back and sign out at an other 
-register left at the main gate.
+The app was deployed on the school's intranet for a while and used as a pilot/interim solution.
 
-However, compliance was low and handwriting was often not legible.
+Flow of the app/solution:
 
-While, the school planned to utlimately replace regular ID Cards with NFC tags to solve this, that was still a couple of years away.
-
-### Our Solution
-
-Arjun observed this problem, we discussed it with the school and decided to build a Sign-In-Sign-Out System (SISOS) as an interim solution.
-
-The idea was simple - the school gave email ids/active dirctory accounts to everyone. We'll make a responsive web app to allow students 
-to login from their phone, laptop or any other device at the school if they are staying back. They'll be able to log out from a laptop 
-left at the security desk on the school's main gate. If a school employee logs into the app, they'll see a list of all the 
-students in the premises and could mark attendence as needed.
-
-We built the application over the next few months and deployed it on the school's intranet.
+* Student logs in using a personal or school device within 20 mins of the end of school.
+* Student's location is verified, and attendence is logged.
+* Student logs out using a school device placed on the security desk at the exit gate (enforced by security)
+* If the student was logged-in, they are removed from the attendence list.
+* If the student was not logged-in, they are logged for non-complinace and requested to comply with the process next time.
 
 ## Tech Stack 
 
-Data Store: Micorosoft SQL Sever.
-Backend: Java EE on Apache Tomcat Server.
-Authentication: Microsoft Active Directory.
-Frontend: HTML5, CSS3, JS/JQuery, Zurb Foundation.
+* Data Store: Micorosoft SQL Sever.
+* Backend: Java EE on Apache Tomcat Server.
+* Authentication: Microsoft Active Directory.
+* Frontend: HTML5, CSS3, JS/JQuery, Zurb Foundation.
 
 ## Screenshots
 
@@ -61,7 +50,7 @@ Frontend: HTML5, CSS3, JS/JQuery, Zurb Foundation.
   <br/>
   <img src="https://github.com/dhruv-tech/sisos/assets/26849655/ff4b63cb-7306-4e34-8363-0f3e4fe35d1f" alt="System Unavailable Page Screenshot" width=800>
   <br/>
-  <p>(Above) System unavailalbe page - Desktop <b>(taken on 1st October 2015)</b></p>
+  <p>(Above) System unavailalbe page - Desktop, dated 1st October 2015</p>
   <p>Students were allowed to login 10 mins before school ended, and upto 20 mins after. The typo in 'available' was fixed at a later point 😅</p>
 </details>
 
@@ -69,7 +58,7 @@ Frontend: HTML5, CSS3, JS/JQuery, Zurb Foundation.
   <summary>Login/Logout Page</summary>
   <br/>
   
-  <p>Both the login and logout pages looked identical, however the logout page was protected by a master password and was only opended on a laptop on the security desk at the main gate.</p>
+  <p>Both the login and logout pages looked identical, however the logout page was protected by a master password and was only opended on a laptop on the security desk at the exit gate.</p>
   
   <p>The background image of the page would differ by the day of the week. The screnshots below are taken on Wednesday and Tuesday respectively.</p>
   
@@ -119,7 +108,7 @@ Frontend: HTML5, CSS3, JS/JQuery, Zurb Foundation.
   <br/>
 
   <img src="https://github.com/dhruv-tech/sisos/assets/26849655/9f6fc9e4-394c-4ee1-b774-eb50f12b4e0f" width=800>
-  <p> (Above) State for student trying to login as admin after system has closed - Desktop <b>(taken on 25 August 2015)</b></p>
+  <p> (Above) State for student trying to login as admin after system has closed - Desktop, dated 25 August 2015</p>
   <br/>
   <img src="https://github.com/dhruv-tech/sisos/assets/26849655/6bec526f-4ad2-44b0-9ea1-2e8662254211" width=800>
   <p> (Above) Logout success state - Desktop </p>
@@ -135,5 +124,3 @@ Frontend: HTML5, CSS3, JS/JQuery, Zurb Foundation.
 </details>
 
 ---
-
-***Made public and archieved in 2023.*
