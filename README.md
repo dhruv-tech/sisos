@@ -17,7 +17,7 @@ I primarily worked on the frontend, while Arjun primarily worked on the backend.
 
 The application was built to address our school's problem with the lack of accurate attendance records for students staying after school - maintaining these records was important for various reasons, but most importantly for a situation where there were to be a fire or earthquake evacuation.
 
-SISOS was developed as a responsive web app where students could sign in/out using school email accounts to indicate if they are present on the premises after school. 
+SISOS was developed as a responsive web app where students could sign in/out using school email accounts to indicate if they are present on the premises after official school hours. 
 
 Staff could login and check attendance of students in the premises at any given time.
 
