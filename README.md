@@ -1,6 +1,6 @@
 # SISOS (2015)
 
-(Archieved)
+(Archived)
 
 SISOS (Sign In Sign Out System) was a web app I created during middle school, in collaboration with **[Arjun Verma](https://www.linkedin.com/in/av777x/)**.
 
