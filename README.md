@@ -33,7 +33,7 @@ Flow of the app/solution:
 
 ## Tech Stack 
 
-* Data Store: Micorosoft SQL Sever.
+* Database: Micorosoft SQL Sever.
 * Backend: Java EE on Apache Tomcat Server.
 * Authentication: Microsoft Active Directory.
 * Frontend: HTML5, CSS3, JS/JQuery, Zurb Foundation.
