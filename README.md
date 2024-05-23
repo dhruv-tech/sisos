@@ -11,7 +11,7 @@ I primarily worked on the frontend, while Arjun primarily worked on the backend.
 (*Screenshot - SISOS open in Microsoft Edge (Legacy), dated 1st October 2015; Click to enlarge*)
 
 
-*The architecture and code quality of the application are a reflection of our middle school developer skills 😅*
+*Note: The architecture and code quality of the application are a reflection of our middle school developer skills 😅*
 
 ## Introduction & Context
 
